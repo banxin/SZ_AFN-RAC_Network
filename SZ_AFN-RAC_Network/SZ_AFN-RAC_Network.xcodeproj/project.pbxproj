@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90EEB09AE2BC8FC4968C162C /* libPods-SZ_AFN-RAC_Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C037BC6DBE39B8169DF1AE3 /* libPods-SZ_AFN-RAC_Network.a */; };
+		A91F308220298B410084EE82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F308120298B410084EE82 /* AppDelegate.m */; };
+		A91F308A20298B410084EE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91F308920298B410084EE82 /* Assets.xcassets */; };
+		A91F308D20298B410084EE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91F308B20298B410084EE82 /* LaunchScreen.storyboard */; };
+		A91F309020298B410084EE82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F308F20298B410084EE82 /* main.m */; };
+		A91F309A20298B420084EE82 /* SZ_AFN_RAC_NetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F309920298B420084EE82 /* SZ_AFN_RAC_NetworkTests.m */; };
+		A91F30A520298B420084EE82 /* SZ_AFN_RAC_NetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30A420298B420084EE82 /* SZ_AFN_RAC_NetworkUITests.m */; };
+		A91F30BC20298E260084EE82 /* SZBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30BB20298E260084EE82 /* SZBaseModel.m */; };
+		A91F30C22029912B0084EE82 /* SZReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30C12029912B0084EE82 /* SZReflection.m */; };
+		A91F30C5202991830084EE82 /* SZEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30C4202991830084EE82 /* SZEXTRuntimeExtensions.m */; };
+		A91F30CC202994940084EE82 /* SZHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30CB202994940084EE82 /* SZHTTPService.m */; };
+		A91F30D0202995B40084EE82 /* SZHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30CF202995B40084EE82 /* SZHTTPResponse.m */; };
+		A91F30D3202997540084EE82 /* SZKeyedSubscript.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30D2202997540084EE82 /* SZKeyedSubscript.m */; };
+		A91F30D62029984C0084EE82 /* SZURLParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30D52029984C0084EE82 /* SZURLParameters.m */; };
+		A91F30DA20299FF20084EE82 /* SAMKeychain+SZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30D920299FF20084EE82 /* SAMKeychain+SZUtil.m */; };
+		A91F30DD2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30DC2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.m */; };
+		A91F30E02029A25B0084EE82 /* SZHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30DF2029A25B0084EE82 /* SZHTTPRequest.m */; };
+		A91F30E62029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30E52029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.m */; };
+		A91F30E92029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30E82029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.m */; };
+		A91F30F32029B2370084EE82 /* NSString+SZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30F22029B2370084EE82 /* NSString+SZExtension.m */; };
+		A91F30F62029B35E0084EE82 /* NSObject+SZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30F52029B35E0084EE82 /* NSObject+SZExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91F309620298B420084EE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91F307520298B410084EE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91F307C20298B410084EE82;
+			remoteInfo = "SZ_AFN-RAC_Network";
+		};
+		A91F30A120298B420084EE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91F307520298B410084EE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91F307C20298B410084EE82;
+			remoteInfo = "SZ_AFN-RAC_Network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C037BC6DBE39B8169DF1AE3 /* libPods-SZ_AFN-RAC_Network.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SZ_AFN-RAC_Network.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F8AED7B6393AF12F5C3480 /* Pods-SZ_AFN-RAC_Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZ_AFN-RAC_Network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SZ_AFN-RAC_Network/Pods-SZ_AFN-RAC_Network.debug.xcconfig"; sourceTree = "<group>"; };
+		A91F307D20298B410084EE82 /* SZ_AFN-RAC_Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SZ_AFN-RAC_Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F308020298B410084EE82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A91F308120298B410084EE82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A91F308920298B410084EE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91F308C20298B410084EE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91F308E20298B410084EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F308F20298B410084EE82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A91F309520298B420084EE82 /* SZ_AFN-RAC_NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SZ_AFN-RAC_NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F309920298B420084EE82 /* SZ_AFN_RAC_NetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_AFN_RAC_NetworkTests.m; sourceTree = "<group>"; };
+		A91F309B20298B420084EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F30A020298B420084EE82 /* SZ_AFN-RAC_NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SZ_AFN-RAC_NetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F30A420298B420084EE82 /* SZ_AFN_RAC_NetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_AFN_RAC_NetworkUITests.m; sourceTree = "<group>"; };
+		A91F30A620298B420084EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F30BA20298E260084EE82 /* SZBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBaseModel.h; sourceTree = "<group>"; };
+		A91F30BB20298E260084EE82 /* SZBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBaseModel.m; sourceTree = "<group>"; };
+		A91F30C02029912B0084EE82 /* SZReflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZReflection.h; sourceTree = "<group>"; };
+		A91F30C12029912B0084EE82 /* SZReflection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZReflection.m; sourceTree = "<group>"; };
+		A91F30C3202991830084EE82 /* SZEXTRuntimeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZEXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		A91F30C4202991830084EE82 /* SZEXTRuntimeExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZEXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		A91F30CA202994940084EE82 /* SZHTTPService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHTTPService.h; sourceTree = "<group>"; };
+		A91F30CB202994940084EE82 /* SZHTTPService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHTTPService.m; sourceTree = "<group>"; };
+		A91F30CD202994DF0084EE82 /* SZHTTPServiceConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHTTPServiceConstant.h; sourceTree = "<group>"; };
+		A91F30CE202995B40084EE82 /* SZHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHTTPResponse.h; sourceTree = "<group>"; };
+		A91F30CF202995B40084EE82 /* SZHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHTTPResponse.m; sourceTree = "<group>"; };
+		A91F30D1202997540084EE82 /* SZKeyedSubscript.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZKeyedSubscript.h; sourceTree = "<group>"; };
+		A91F30D2202997540084EE82 /* SZKeyedSubscript.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZKeyedSubscript.m; sourceTree = "<group>"; };
+		A91F30D42029984C0084EE82 /* SZURLParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZURLParameters.h; sourceTree = "<group>"; };
+		A91F30D52029984C0084EE82 /* SZURLParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZURLParameters.m; sourceTree = "<group>"; };
+		A91F30D820299FF20084EE82 /* SAMKeychain+SZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain+SZUtil.h"; sourceTree = "<group>"; };
+		A91F30D920299FF20084EE82 /* SAMKeychain+SZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain+SZUtil.m"; sourceTree = "<group>"; };
+		A91F30DB2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACSignal+SZHTTPServiceAdditions.h"; sourceTree = "<group>"; };
+		A91F30DC2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+SZHTTPServiceAdditions.m"; sourceTree = "<group>"; };
+		A91F30DE2029A25B0084EE82 /* SZHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHTTPRequest.h; sourceTree = "<group>"; };
+		A91F30DF2029A25B0084EE82 /* SZHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHTTPRequest.m; sourceTree = "<group>"; };
+		A91F30E42029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
+		A91F30E52029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
+		A91F30E72029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
+		A91F30E82029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
+		A91F30F12029B2370084EE82 /* NSString+SZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SZExtension.h"; sourceTree = "<group>"; };
+		A91F30F22029B2370084EE82 /* NSString+SZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SZExtension.m"; sourceTree = "<group>"; };
+		A91F30F42029B35E0084EE82 /* NSObject+SZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SZExtension.h"; sourceTree = "<group>"; };
+		A91F30F52029B35E0084EE82 /* NSObject+SZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SZExtension.m"; sourceTree = "<group>"; };
+		FF385E591B64053F01589B12 /* Pods-SZ_AFN-RAC_Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZ_AFN-RAC_Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-SZ_AFN-RAC_Network/Pods-SZ_AFN-RAC_Network.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91F307A20298B410084EE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EEB09AE2BC8FC4968C162C /* libPods-SZ_AFN-RAC_Network.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F309220298B420084EE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F309D20298B420084EE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A081E75D00B4E38B183A964 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F8AED7B6393AF12F5C3480 /* Pods-SZ_AFN-RAC_Network.debug.xcconfig */,
+				FF385E591B64053F01589B12 /* Pods-SZ_AFN-RAC_Network.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A91F307420298B410084EE82 = {
+			isa = PBXGroup;
+			children = (
+				A91F307F20298B410084EE82 /* SZ_AFN-RAC_Network */,
+				A91F309820298B420084EE82 /* SZ_AFN-RAC_NetworkTests */,
+				A91F30A320298B420084EE82 /* SZ_AFN-RAC_NetworkUITests */,
+				A91F307E20298B410084EE82 /* Products */,
+				9A081E75D00B4E38B183A964 /* Pods */,
+				FEF4D47B3A886F1FD4B63482 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A91F307E20298B410084EE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91F307D20298B410084EE82 /* SZ_AFN-RAC_Network.app */,
+				A91F309520298B420084EE82 /* SZ_AFN-RAC_NetworkTests.xctest */,
+				A91F30A020298B420084EE82 /* SZ_AFN-RAC_NetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91F307F20298B410084EE82 /* SZ_AFN-RAC_Network */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30B720298DD50084EE82 /* ViewController */,
+				A91F30B820298DD50084EE82 /* Model */,
+				A91F30B420298DD50084EE82 /* Utils */,
+				A91F308020298B410084EE82 /* AppDelegate.h */,
+				A91F308120298B410084EE82 /* AppDelegate.m */,
+				A91F308920298B410084EE82 /* Assets.xcassets */,
+				A91F308B20298B410084EE82 /* LaunchScreen.storyboard */,
+				A91F308E20298B410084EE82 /* Info.plist */,
+				A91F308F20298B410084EE82 /* main.m */,
+			);
+			path = "SZ_AFN-RAC_Network";
+			sourceTree = "<group>";
+		};
+		A91F309820298B420084EE82 /* SZ_AFN-RAC_NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A91F309920298B420084EE82 /* SZ_AFN_RAC_NetworkTests.m */,
+				A91F309B20298B420084EE82 /* Info.plist */,
+			);
+			path = "SZ_AFN-RAC_NetworkTests";
+			sourceTree = "<group>";
+		};
+		A91F30A320298B420084EE82 /* SZ_AFN-RAC_NetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30A420298B420084EE82 /* SZ_AFN_RAC_NetworkUITests.m */,
+				A91F30A620298B420084EE82 /* Info.plist */,
+			);
+			path = "SZ_AFN-RAC_NetworkUITests";
+			sourceTree = "<group>";
+		};
+		A91F30B420298DD50084EE82 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30F02029B2290084EE82 /* Category */,
+				A91F30D720299FD60084EE82 /* Util */,
+				A91F30B520298DD50084EE82 /* Service */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A91F30B520298DD50084EE82 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30B620298DD50084EE82 /* NetWork */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A91F30B620298DD50084EE82 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30B920298E180084EE82 /* BaseClass */,
+				A91F30C8202994580084EE82 /* BaseModel */,
+				A91F30C6202994580084EE82 /* Constant */,
+				A91F30C7202994580084EE82 /* Extension */,
+				A91F30C9202994580084EE82 /* Request */,
+				A91F30CA202994940084EE82 /* SZHTTPService.h */,
+				A91F30CB202994940084EE82 /* SZHTTPService.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		A91F30B720298DD50084EE82 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A91F30B820298DD50084EE82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A91F30B920298E180084EE82 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30BA20298E260084EE82 /* SZBaseModel.h */,
+				A91F30BB20298E260084EE82 /* SZBaseModel.m */,
+				A91F30C02029912B0084EE82 /* SZReflection.h */,
+				A91F30C12029912B0084EE82 /* SZReflection.m */,
+				A91F30C3202991830084EE82 /* SZEXTRuntimeExtensions.h */,
+				A91F30C4202991830084EE82 /* SZEXTRuntimeExtensions.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		A91F30C6202994580084EE82 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30CD202994DF0084EE82 /* SZHTTPServiceConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A91F30C7202994580084EE82 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30DB2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.h */,
+				A91F30DC2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.m */,
+				A91F30E42029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.h */,
+				A91F30E52029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.m */,
+				A91F30E72029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.h */,
+				A91F30E82029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A91F30C8202994580084EE82 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30CE202995B40084EE82 /* SZHTTPResponse.h */,
+				A91F30CF202995B40084EE82 /* SZHTTPResponse.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		A91F30C9202994580084EE82 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30D1202997540084EE82 /* SZKeyedSubscript.h */,
+				A91F30D2202997540084EE82 /* SZKeyedSubscript.m */,
+				A91F30D42029984C0084EE82 /* SZURLParameters.h */,
+				A91F30D52029984C0084EE82 /* SZURLParameters.m */,
+				A91F30DE2029A25B0084EE82 /* SZHTTPRequest.h */,
+				A91F30DF2029A25B0084EE82 /* SZHTTPRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		A91F30D720299FD60084EE82 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30D820299FF20084EE82 /* SAMKeychain+SZUtil.h */,
+				A91F30D920299FF20084EE82 /* SAMKeychain+SZUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A91F30F02029B2290084EE82 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30F12029B2370084EE82 /* NSString+SZExtension.h */,
+				A91F30F22029B2370084EE82 /* NSString+SZExtension.m */,
+				A91F30F42029B35E0084EE82 /* NSObject+SZExtension.h */,
+				A91F30F52029B35E0084EE82 /* NSObject+SZExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FEF4D47B3A886F1FD4B63482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C037BC6DBE39B8169DF1AE3 /* libPods-SZ_AFN-RAC_Network.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91F307C20298B410084EE82 /* SZ_AFN-RAC_Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91F30A920298B420084EE82 /* Build configuration list for PBXNativeTarget "SZ_AFN-RAC_Network" */;
+			buildPhases = (
+				2C280AD4AC2395257C34D483 /* [CP] Check Pods Manifest.lock */,
+				A91F307920298B410084EE82 /* Sources */,
+				A91F307A20298B410084EE82 /* Frameworks */,
+				A91F307B20298B410084EE82 /* Resources */,
+				C9B48ECD2F4D86EB34266683 /* [CP] Embed Pods Frameworks */,
+				976B7F1705D3322497194CE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SZ_AFN-RAC_Network";
+			productName = "SZ_AFN-RAC_Network";
+			productReference = A91F307D20298B410084EE82 /* SZ_AFN-RAC_Network.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A91F309420298B420084EE82 /* SZ_AFN-RAC_NetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91F30AC20298B420084EE82 /* Build configuration list for PBXNativeTarget "SZ_AFN-RAC_NetworkTests" */;
+			buildPhases = (
+				A91F309120298B420084EE82 /* Sources */,
+				A91F309220298B420084EE82 /* Frameworks */,
+				A91F309320298B420084EE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91F309720298B420084EE82 /* PBXTargetDependency */,
+			);
+			name = "SZ_AFN-RAC_NetworkTests";
+			productName = "SZ_AFN-RAC_NetworkTests";
+			productReference = A91F309520298B420084EE82 /* SZ_AFN-RAC_NetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91F309F20298B420084EE82 /* SZ_AFN-RAC_NetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91F30AF20298B420084EE82 /* Build configuration list for PBXNativeTarget "SZ_AFN-RAC_NetworkUITests" */;
+			buildPhases = (
+				A91F309C20298B420084EE82 /* Sources */,
+				A91F309D20298B420084EE82 /* Frameworks */,
+				A91F309E20298B420084EE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91F30A220298B420084EE82 /* PBXTargetDependency */,
+			);
+			name = "SZ_AFN-RAC_NetworkUITests";
+			productName = "SZ_AFN-RAC_NetworkUITests";
+			productReference = A91F30A020298B420084EE82 /* SZ_AFN-RAC_NetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91F307520298B410084EE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SZ;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yanl;
+				TargetAttributes = {
+					A91F307C20298B410084EE82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A91F309420298B420084EE82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A91F307C20298B410084EE82;
+					};
+					A91F309F20298B420084EE82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A91F307C20298B410084EE82;
+					};
+				};
+			};
+			buildConfigurationList = A91F307820298B410084EE82 /* Build configuration list for PBXProject "SZ_AFN-RAC_Network" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91F307420298B410084EE82;
+			productRefGroup = A91F307E20298B410084EE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91F307C20298B410084EE82 /* SZ_AFN-RAC_Network */,
+				A91F309420298B420084EE82 /* SZ_AFN-RAC_NetworkTests */,
+				A91F309F20298B420084EE82 /* SZ_AFN-RAC_NetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91F307B20298B410084EE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F308D20298B410084EE82 /* LaunchScreen.storyboard in Resources */,
+				A91F308A20298B410084EE82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F309320298B420084EE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F309E20298B420084EE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C280AD4AC2395257C34D483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SZ_AFN-RAC_Network-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		976B7F1705D3322497194CE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SZ_AFN-RAC_Network/Pods-SZ_AFN-RAC_Network-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZ_AFN-RAC_Network/Pods-SZ_AFN-RAC_Network-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B48ECD2F4D86EB34266683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZ_AFN-RAC_Network/Pods-SZ_AFN-RAC_Network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91F307920298B410084EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F30E02029A25B0084EE82 /* SZHTTPRequest.m in Sources */,
+				A91F30BC20298E260084EE82 /* SZBaseModel.m in Sources */,
+				A91F30C22029912B0084EE82 /* SZReflection.m in Sources */,
+				A91F30DA20299FF20084EE82 /* SAMKeychain+SZUtil.m in Sources */,
+				A91F30E62029A8FC0084EE82 /* AFHTTPSessionManager+RACSupport.m in Sources */,
+				A91F30F32029B2370084EE82 /* NSString+SZExtension.m in Sources */,
+				A91F30C5202991830084EE82 /* SZEXTRuntimeExtensions.m in Sources */,
+				A91F30D3202997540084EE82 /* SZKeyedSubscript.m in Sources */,
+				A91F30D0202995B40084EE82 /* SZHTTPResponse.m in Sources */,
+				A91F309020298B410084EE82 /* main.m in Sources */,
+				A91F30D62029984C0084EE82 /* SZURLParameters.m in Sources */,
+				A91F30DD2029A1420084EE82 /* RACSignal+SZHTTPServiceAdditions.m in Sources */,
+				A91F30E92029AA890084EE82 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				A91F30CC202994940084EE82 /* SZHTTPService.m in Sources */,
+				A91F30F62029B35E0084EE82 /* NSObject+SZExtension.m in Sources */,
+				A91F308220298B410084EE82 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F309120298B420084EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F309A20298B420084EE82 /* SZ_AFN_RAC_NetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F309C20298B420084EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F30A520298B420084EE82 /* SZ_AFN_RAC_NetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A91F309720298B420084EE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91F307C20298B410084EE82 /* SZ_AFN-RAC_Network */;
+			targetProxy = A91F309620298B420084EE82 /* PBXContainerItemProxy */;
+		};
+		A91F30A220298B420084EE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91F307C20298B410084EE82 /* SZ_AFN-RAC_Network */;
+			targetProxy = A91F30A120298B420084EE82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A91F308B20298B410084EE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91F308C20298B410084EE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A91F30A720298B420084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A91F30A820298B420084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91F30AA20298B420084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F8AED7B6393AF12F5C3480 /* Pods-SZ_AFN-RAC_Network.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SZ_AFN-RAC_Network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-AFN-RAC-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A91F30AB20298B420084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF385E591B64053F01589B12 /* Pods-SZ_AFN-RAC_Network.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SZ_AFN-RAC_Network/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-AFN-RAC-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A91F30AD20298B420084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SZ_AFN-RAC_NetworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-AFN-RAC-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_AFN-RAC_Network.app/SZ_AFN-RAC_Network";
+			};
+			name = Debug;
+		};
+		A91F30AE20298B420084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SZ_AFN-RAC_NetworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-AFN-RAC-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_AFN-RAC_Network.app/SZ_AFN-RAC_Network";
+			};
+			name = Release;
+		};
+		A91F30B020298B420084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SZ_AFN-RAC_NetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-AFN-RAC-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SZ_AFN-RAC_Network";
+			};
+			name = Debug;
+		};
+		A91F30B120298B420084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SZ_AFN-RAC_NetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-AFN-RAC-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SZ_AFN-RAC_Network";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91F307820298B410084EE82 /* Build configuration list for PBXProject "SZ_AFN-RAC_Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F30A720298B420084EE82 /* Debug */,
+				A91F30A820298B420084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91F30A920298B420084EE82 /* Build configuration list for PBXNativeTarget "SZ_AFN-RAC_Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F30AA20298B420084EE82 /* Debug */,
+				A91F30AB20298B420084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91F30AC20298B420084EE82 /* Build configuration list for PBXNativeTarget "SZ_AFN-RAC_NetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F30AD20298B420084EE82 /* Debug */,
+				A91F30AE20298B420084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91F30AF20298B420084EE82 /* Build configuration list for PBXNativeTarget "SZ_AFN-RAC_NetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F30B020298B420084EE82 /* Debug */,
+				A91F30B120298B420084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91F307520298B410084EE82 /* Project object */;
+}
